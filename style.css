@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+/*              Sass Template           */
+/*  global classes  */
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00A5C4;
+}
+
+.color-second-bg {
+    background: #00A5C4;
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+#banner-area .owl-carousel .item img {
+    height: 700px;
+}
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+.dropdown img{
+    height: 50px;
+    width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
+
+/*profile*/
+
+:root{
+    --font-ubuntu: 'Ubuntu', monospace;
+    --color-border: #e5e5e5;
+}
+
+.font-ubuntu{
+    font: normal 500 16px var(--font-ubuntu);
+}
+
+#register, #login-form {
+    padding: 5% 0;
+    background: url("./assets/background.png") no-repeat;
+    background-size: cover;
+}
+
+#login-form{
+    padding: 10% 0;
+}
+
+#register .upload-profile-image{
+    position: relative;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: filter .8s ease;
+}
+
+#register .upload-profile-image:hover{
+    filter: drop-shadow(1px 1px 22px #7584bb);
+}
+
+#upload-profile{
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 200px;
+    margin-top: 0px;
+    opacity: 0;
+}
+
+#upload-profile::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+#upload-profile::before{
+    content: ' ';
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#register .upload-profile-image .camera-icon{
+    position: absolute;
+    top: 70px;
+    width: 60px !important;
+    filter: invert(30%) !important;
+}
+
+#register .upload-profile-image:hover .camera-icon{
+    filter: invert(100%) !important;
+}
+
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password']{
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password']{
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
