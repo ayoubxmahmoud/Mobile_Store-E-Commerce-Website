@@ -14,3 +14,7 @@ The website comes with the following features:
 ## Screenshots:
 
 ![part1](https://github.com/ayoubxmahmoud/Mobile_Store-E-Commerce-Website/assets/116462151/5811ea2a-f4a8-446d-a2d1-76ba50b089af)
+
+## Quick Demo:
+
+[mobile_store.webm](https://github.com/ayoubxmahmoud/Mobile_Store-E-Commerce-Website/assets/116462151/e778a47d-3730-4289-9c36-e168e61c4299)
